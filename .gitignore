@@ -1,7 +1,18 @@
-# These are some examples of commonly ignored file patterns.
-# You should customize this list as applicable to your project.
-# Learn more about .gitignore:
-#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+git rm -r .ipynb_checkpoints/
+
+# end
 
 # Node artifact files
 node_modules/
