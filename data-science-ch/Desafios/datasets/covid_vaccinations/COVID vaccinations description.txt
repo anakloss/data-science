@@ -1,0 +1,60 @@
+CONTENT
+
+The data (country vaccinations) contains the following information:
+
+* Country- this is the country for which the vaccination information is provided;
+* Country ISO Code - ISO code for the country;
+* Date - date for the data entry; for some of the dates we have only the daily vaccinations, for others, only the (cumulative) total;
+* Total number of vaccinations - this is the absolute number of total immunizations in the country;
+* Total number of people vaccinated - a person, depending on the immunization scheme, will receive one or more (typically 2) vaccines; at a certain moment, the number of vaccination might be larger than the number of people;
+* Total number of people fully vaccinated - this is the number of people that received the entire set of immunization according to the immunization scheme (typically 2); at a certain moment in time, there might be a certain number of people that received one vaccine and another number (smaller) of people that received all vaccines in the scheme;
+* Daily vaccinations (raw) - for a certain data entry, the number of vaccination for that date/country;
+* Daily vaccinations - for a certain data entry, the number of vaccination for that date/country;
+* Total vaccinations per hundred - ratio (in percent) between vaccination number and total population up to the date in the country;
+* Total number of people vaccinated per hundred - ratio (in percent) between population immunized and total population up to the date in the country;
+* Total number of people fully vaccinated per hundred - ratio (in percent) between population fully immunized and total population up to the date in the country;
+* Number of vaccinations per day - number of daily vaccination for that day and country;
+* Daily vaccinations per million - ratio (in ppm) between vaccination number and total population for the current date in the country;
+* Vaccines used in the country - total number of vaccines used in the country (up to date);
+* Source name - source of the information (national authority, international organization, local organization etc.);
+* Source website - website of the source of information;
+
+
+There is a second file added recently (country vaccinations by manufacturer), with the following columns:
+
+* Location - country;
+* Date - date;
+* Vaccine - vaccine type;
+* Total number of vaccinations - total number of vaccinations / current time and vaccine type.
+
+======================================================================================================
+
+Contenido
+Los datos ( vacunas en el país ) contienen la siguiente información:
+
+* País- este es el país para el cual se proporciona la información de vacunación;
+* Código ISO del país - Código ISO para el país;
+* Fecha - fecha para la entrada de datos; para algunas de las fechas tenemos solo las vacunas diarias, para otras, solo el total ( acumulativo );
+* Número total de vacunas. - este es el número absoluto de inmunizaciones totales en el país;
+* Número total de personas vacunadas - una persona, dependiendo del esquema de inmunización, recibirá una o más vacunas ( típicamente 2 );
+    en un momento determinado, el número de vacunas puede ser mayor que el número de personas;
+* Número total de personas completamente vacunadas - este es el número de personas que recibieron el conjunto completo de inmunización de acuerdo
+    con el esquema de inmunización ( típicamente 2 ); en un momento determinado en el tiempo, puede haber un cierto número de personas que 
+    recibieron una vacuna y otro número ( menor ) de personas que recibieron todas las vacunas en el esquema;
+* Vacunas diarias ( cruda ) - para una determinada entrada de datos, el número de vacunación para esa fecha / país;
+* Vacunas diarias - para una determinada entrada de datos, el número de vacunación para esa fecha / país;
+* Vacunas totales por cien - relación ( en porcentaje ) entre el número de vacunación y la población total hasta la fecha en el país;
+* Número total de personas vacunadas por cien - relación ( en porcentaje ) entre población inmunizada y población total hasta la fecha en el país;
+* Número total de personas completamente vacunadas por cien - relación ( en porcentaje ) entre población totalmente inmunizada y población total hasta la fecha en el país;
+* Número de vacunas por día. - número de vacunación diaria para ese día y país;
+* Vacunas diarias por millón - relación ( en ppm ) entre el número de vacunación y la población total para la fecha actual en el país;
+* Vacunas utilizadas en el país. - número total de vacunas utilizadas en el país ( actualizado );
+* Nombre de origen - fuente de información ( autoridad nacional, organización internacional, organización local, etc. );
+* Sitio web de origen - sitio web de la fuente de información;
+
+Recientemente se agregó un segundo archivo ( vacunas en el país por fabricante ), con las siguientes columnas:
+
+* Ubicación - país;
+* Fecha - fecha;
+* Vacuna - tipo de vacuna;
+* Número total de vacunas. - número total de vacunas / hora actual y tipo de vacuna.
